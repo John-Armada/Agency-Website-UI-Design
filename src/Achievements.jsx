@@ -111,7 +111,7 @@ function Achievements() {
         </div>
       </section>
 
-      <section className="flex flex-row px-36 py-8 gap-[78px] bg-[#F5F7FA]">
+      <section className="flex flex-row px-36 py-8 justify-between gap-[78px] bg-[#F5F7FA]">
         <div className="flex justify-center items-center w-[326px] h-[326px]">
           <img
             className="w-full h-full rounded-lg"
@@ -168,8 +168,8 @@ function Achievements() {
               <h4 className="text-[#4CAF4F] font-semibold text-[20px]">
                 Meet all customers
               </h4>
-              <a href="#">
-                <img src={rightArrow} alt="" />
+              <a className="flex justify-center items-center" href="#">
+                <img className="py-2 px-[4.5px]" src={rightArrow} alt="" />
               </a>
             </div>
           </div>
